@@ -80,7 +80,7 @@ button {
 }
 
 .container {
-  width: min(1120px, calc(100% - 40px));
+  width: min(1200px, calc(100% - 40px));
   margin-inline: auto;
 }
 
@@ -606,8 +606,8 @@ button {
 /* Games Grid */
 .games-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
 
 /* Game Card */
@@ -680,6 +680,26 @@ button {
 }
 
 .game-cover:hover .foxlight-beam {
+  opacity: 1;
+}
+
+/* Umi sunlit kitchen warm shimmer */
+.umi-sunlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    circle 180px at 78% 58%,
+    rgba(255, 224, 130, 0.34),
+    rgba(255, 196, 102, 0.1) 48%,
+    transparent 76%
+  );
+}
+
+.game-cover:hover .umi-sunlight {
   opacity: 1;
 }
 
@@ -798,7 +818,7 @@ button {
 
 /* Card Content */
 .game-body {
-  padding: 22px 24px 24px;
+  padding: 20px 20px 22px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -903,17 +923,17 @@ button {
 }
 
 .btn-play {
-  flex: 1 1 150px;
-  padding: 10px 18px;
+  flex: 1 1 118px;
+  padding: 10px 14px;
   background: var(--card-accent, var(--sky));
   color: #FFFFFF;
   border-radius: 999px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
+  gap: 6px;
   box-shadow: 0 10px 20px -12px var(--card-accent, var(--sky));
   transition: transform 0.2s var(--ease), filter 0.2s ease;
 }
@@ -924,11 +944,11 @@ button {
 }
 
 .btn-ghost {
-  padding: 9px 14px;
+  padding: 9px 12px;
   border-radius: 999px;
   border: 1px solid var(--line-strong);
   background: var(--surface);
-  font-size: 0.85rem;
+  font-size: 0.84rem;
   font-weight: 600;
   color: var(--ink-secondary);
   display: inline-flex;
@@ -944,8 +964,8 @@ button {
 }
 
 .btn-icon-only {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   padding: 0;
   justify-content: center;
   border-radius: 50%;
@@ -1349,17 +1369,25 @@ button {
    Responsive
    ========================================================================== */
 
+@media (max-width: 1040px) {
+  .games-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 960px) {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 28px;
   }
 
-  .games-grid {
+  .guide-grid {
     grid-template-columns: 1fr;
   }
+}
 
-  .guide-grid {
+@media (max-width: 720px) {
+  .games-grid {
     grid-template-columns: 1fr;
   }
 }

@@ -10,6 +10,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | NO. 01 | **狐影零时 \| Foxlight: 00:00 - 06:00** | 2D 手电筒潜行生存 | [开始游玩](https://gdhjdsydh.github.io/Foxlight-Shrine/) | [Foxlight-Shrine](https://github.com/GDHJDSYDH/Foxlight-Shrine) |
 | NO. 02 | **神山识打地鼠 \| Whack-Shiki** | 夏日海滩休闲打地鼠 | [开始游玩](https://gdhjdsydh.github.io/Whack-Shiki/) | [Whack-Shiki](https://github.com/GDHJDSYDH/Whack-Shiki) |
+| NO. 03 | **羽未的炒饭游戏 \| Umi-Friedrice-Game** | 夏日厨房模拟烹饪 | [开始游玩](https://gdhjdsydh.github.io/Umi-Friedrice-Game/) | [Umi-Friedrice-Game](https://github.com/GDHJDSYDH/Umi-Friedrice-Game) |
 
 ## 如何新增下一款小游戏
 

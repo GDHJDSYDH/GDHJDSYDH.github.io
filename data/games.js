@@ -13,7 +13,7 @@ window.SITE_I18N = {
     heroStamp: '夏末手作 · 网页游戏馆',
     heroTitle: 'GDHJDSYDH 的\n网页小游戏中心',
     heroDesc:
-      '这里收纳我制作的开源网页小游戏。无需下载安装，打开浏览器即可直接游玩——无论是午夜神社的潜行心跳，还是鸟白岛海滩的轻松敲击，欢迎翻开这本小小的游戏手账。',
+      '这里收纳我制作的开源网页小游戏。无需下载安装，打开浏览器即可直接游玩——无论是午夜神社的潜行心跳、鸟白岛海滩的轻松敲击，还是夏日厨房里的锅气炒饭，欢迎翻开这本小小的游戏手账。',
     heroPrimaryCta: '浏览全部游戏',
     heroSecondaryCta: '访问 GitHub',
     statPublished: '已上线作品',
@@ -27,6 +27,7 @@ window.SITE_I18N = {
     filterAll: '全部作品',
     filterSurvival: '潜行生存',
     filterCasual: '休闲街机',
+    filterSimulation: '模拟烹饪',
     filterMobile: '手机适配',
     playNow: '开始游玩',
     viewDetails: '详情手账',
@@ -80,7 +81,7 @@ window.SITE_I18N = {
     heroStamp: 'HANDCRAFTED WEB GAMES',
     heroTitle: "GDHJDSYDH's\nIndie Game Gallery",
     heroDesc:
-      'A personal collection of browser mini-games built and hosted on GitHub Pages. No downloads or installs required—jump straight in from midnight shrine stealth to sunny Torishirojima beach arcade fun.',
+      'A personal collection of browser mini-games built and hosted on GitHub Pages. No downloads or installs required—jump straight into midnight shrine stealth, sunny beach arcade fun, or summer kitchen wok cooking.',
     heroPrimaryCta: 'Explore Games',
     heroSecondaryCta: 'Visit GitHub',
     statPublished: 'Live Games',
@@ -95,6 +96,7 @@ window.SITE_I18N = {
     filterAll: 'All Games',
     filterSurvival: 'Stealth Survival',
     filterCasual: 'Casual Arcade',
+    filterSimulation: 'Cooking Sim',
     filterMobile: 'Mobile Friendly',
     playNow: 'Play Now',
     viewDetails: 'Details',
@@ -256,6 +258,63 @@ window.GAMES = [
         mobile: 'Tap directly on Shiki as she peeks out of the sand holes for fast arcade combos'
       },
       portraitCaption: 'Chibi Kamiyama Shiki'
+    }
+  },
+  {
+    id: 'umi-friedrice-game',
+    catalogNo: 'NO. 03',
+    categories: ['simulation', 'casual', 'mobile'],
+    accent: '#D97724',
+    accentSoft: 'rgba(217, 119, 36, 0.12)',
+    playUrl: 'https://gdhjdsydh.github.io/Umi-Friedrice-Game/',
+    repoUrl: 'https://github.com/GDHJDSYDH/Umi-Friedrice-Game',
+    coverType: 'umi-kitchen',
+    coverImage: 'assets/games/umi-cover.jpg',
+    portraitImage: 'assets/games/umi-portrait.png',
+    updated: '2026-11',
+    tech: 'React · TypeScript · Vite · Web Audio',
+    license: 'Fan Game · Open Source',
+    zh: {
+      coverBadge: '六维炒饭评分 · 4 款锅具',
+      title: '羽未的炒饭游戏',
+      subtitle: 'Umi-Friedrice-Game · Summer Pockets 同人',
+      genre: '夏日厨房模拟烹饪',
+      tagline: '在加藤家午后阳光厨房里，掌勺翻炒一盘让羽未眼睛发光的满分炒饭！',
+      summary:
+        '《Summer Pockets》同人第一人称网页炒饭模拟器。自选 4 种特性锅具与 20 种配菜自由组合，掌控 5 档燃气火力、7 种调味料化学反应与木铲翻炒 QTE，最终由 Q 版加藤羽未给出六维雷达评分与 5 档表情点评。',
+      tags: ['模拟烹饪', '翻炒 QTE', 'Summer Pockets 同人', '六维评分'],
+      highlights: [
+        '4 种特色锅具（熟铁锅 / 羽未红底不粘锅 / 铸铁锅 / 铜制炒锅）自带热惯性、锅气与 QTE 加成',
+        '20 种海鲜 / 肉类 / 蔬菜自由挑 4 种搭配，7 种调味料可触发【金包银】【锅边呛酱油】【蜜汁焦糖】等隐藏高阶技巧',
+        '5 档火力调控 + 木铲翻炒 QTE（Excellent / Great / Good / Bad），实时抛起锅内米粒与配菜',
+        '六维精密雷达图评分（火候、熟度、技法、调味、色泽、出锅）+ Q 版羽未 5 档品尝差分表情与点评'
+      ],
+      controls: {
+        pc: '鼠标点击食材下锅、添加调味料与控火 · 数字键 0~5 快捷切火 · 点击木铲/锅体或按 Space 触发翻炒 QTE',
+        mobile: '直接触屏点选锅具、配菜、火力档位与调味料，轻点木铲或锅体即可畅快翻炒 QTE'
+      },
+      portraitCaption: 'Q 版加藤羽未'
+    },
+    en: {
+      coverBadge: '6-Axis Scoring · 4 Woks',
+      title: "Umi's Fried Rice",
+      subtitle: 'Umi-Friedrice-Game · Summer Pockets Fan Sim',
+      genre: 'Cooking Simulation',
+      tagline: 'Step into the sunlit Kato kitchen and wok-toss a golden fried rice to delight Umi!',
+      summary:
+        'A first-person Summer Pockets fan cooking simulator set in the afternoon Torishirojima kitchen. Pick from 4 unique woks and 20 ingredients, master 5 burner heat levels, 7 seasonings, and spatula QTE tosses for a 6-axis score and Umi tasting reactions.',
+      tags: ['Cooking Sim', 'Spatula QTE', 'Summer Pockets Fan', '6-Axis Rating'],
+      highlights: [
+        '4 distinct woks (carbon steel, Umi red nonstick, cast iron, copper) with thermal inertia, wok-hei, and QTE modifiers',
+        'Pick up to 4 of 20 ingredients plus 7 seasonings to trigger hidden culinary combos like Golden Egg Coat & Soy Rim Sear',
+        '5-level gas flame control & dynamic spatula toss QTE (Excellent / Great / Good / Bad) with live tossed rice particles',
+        '6-axis radar chart evaluation paired with 5 expressive chibi Kato Umi tasting grades and reviews'
+      ],
+      controls: {
+        pc: 'Click ingredients, seasonings, and burner controls · Keys 0–5 for flame levels · Click wok/spatula or press Space for QTE',
+        mobile: 'Tap directly to pick woks, drop ingredients, adjust flame, season, and tap the wok/spatula for toss QTEs'
+      },
+      portraitCaption: 'Chibi Kato Umi'
     }
   }
 ];
