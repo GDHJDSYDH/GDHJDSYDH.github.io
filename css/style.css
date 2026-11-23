@@ -482,6 +482,8 @@ button {
   flex-direction: column;
   gap: 8px;
   padding-top: 15px;
+  max-height: 228px;
+  overflow-y: auto;
 }
 
 .quick-launch-row {
@@ -603,11 +605,12 @@ button {
   color: #FFFFFF;
 }
 
-/* Games Grid */
+/* Games Grid — 桌面端每行固定 3 款作品，超过 3 款自动换入下一行 */
 .games-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 28px;
 }
 
 /* Game Card */
@@ -700,6 +703,26 @@ button {
 }
 
 .game-cover:hover .umi-sunlight {
+  opacity: 1;
+}
+
+/* Snowball Battle winter frost sparkle shimmer */
+.snowball-frost {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    circle 210px at 50% 42%,
+    rgba(225, 248, 255, 0.34),
+    rgba(162, 224, 248, 0.1) 50%,
+    transparent 76%
+  );
+}
+
+.game-cover:hover .snowball-frost {
   opacity: 1;
 }
 

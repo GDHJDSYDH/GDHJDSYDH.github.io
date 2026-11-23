@@ -58,6 +58,13 @@
       `;
     }
 
+    if (game.coverType === 'snowball') {
+      return `
+        <img class="game-cover-img" src="${escapeHtml(game.coverImage)}" alt="${escapeHtml(loc.title)}" loading="${isModal ? 'eager' : 'lazy'}" />
+        ${!isModal ? '<div class="snowball-frost" aria-hidden="true"></div>' : ''}
+      `;
+    }
+
     return `
       <img class="game-cover-img" src="${escapeHtml(game.coverImage)}" alt="${escapeHtml(loc.title)}" loading="${isModal ? 'eager' : 'lazy'}" />
       ${!isModal ? '<div class="foxlight-beam" aria-hidden="true"></div>' : ''}

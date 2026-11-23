@@ -13,7 +13,7 @@ window.SITE_I18N = {
     heroStamp: '夏末手作 · 网页游戏馆',
     heroTitle: 'GDHJDSYDH 的\n网页小游戏中心',
     heroDesc:
-      '这里收纳我制作的开源网页小游戏。无需下载安装，打开浏览器即可直接游玩——无论是午夜神社的潜行心跳、鸟白岛海滩的轻松敲击，还是夏日厨房里的锅气炒饭，欢迎翻开这本小小的游戏手账。',
+      '这里收纳我制作的开源网页小游戏。无需下载安装，打开浏览器即可直接游玩——无论是午夜神社的潜行心跳、鸟白岛海滩与夏日厨房的治愈时光，还是雪原上的像素打雪仗，欢迎翻开这本小小的游戏手账。',
     heroPrimaryCta: '浏览全部游戏',
     heroSecondaryCta: '访问 GitHub',
     statPublished: '已上线作品',
@@ -28,6 +28,7 @@ window.SITE_I18N = {
     filterSurvival: '潜行生存',
     filterCasual: '休闲街机',
     filterSimulation: '模拟烹饪',
+    filterAction: '动作对战',
     filterMobile: '手机适配',
     playNow: '开始游玩',
     viewDetails: '详情手账',
@@ -81,7 +82,7 @@ window.SITE_I18N = {
     heroStamp: 'HANDCRAFTED WEB GAMES',
     heroTitle: "GDHJDSYDH's\nIndie Game Gallery",
     heroDesc:
-      'A personal collection of browser mini-games built and hosted on GitHub Pages. No downloads or installs required—jump straight into midnight shrine stealth, sunny beach arcade fun, or summer kitchen wok cooking.',
+      'A personal collection of browser mini-games built and hosted on GitHub Pages. No downloads or installs required—jump into midnight shrine stealth, summer island arcade & cooking, or 2.5D pixel snowball battles.',
     heroPrimaryCta: 'Explore Games',
     heroSecondaryCta: 'Visit GitHub',
     statPublished: 'Live Games',
@@ -97,6 +98,7 @@ window.SITE_I18N = {
     filterSurvival: 'Stealth Survival',
     filterCasual: 'Casual Arcade',
     filterSimulation: 'Cooking Sim',
+    filterAction: 'Action Battle',
     filterMobile: 'Mobile Friendly',
     playNow: 'Play Now',
     viewDetails: 'Details',
@@ -315,6 +317,63 @@ window.GAMES = [
         mobile: 'Tap directly to pick woks, drop ingredients, adjust flame, season, and tap the wok/spatula for toss QTEs'
       },
       portraitCaption: 'Chibi Kato Umi'
+    }
+  },
+  {
+    id: 'snowball-battle',
+    catalogNo: 'NO. 04',
+    categories: ['action', 'mobile'],
+    accent: '#2A8FA8',
+    accentSoft: 'rgba(42, 143, 168, 0.12)',
+    playUrl: 'https://gdhjdsydh.github.io/Snowball-Battle/',
+    repoUrl: 'https://github.com/GDHJDSYDH/Snowball-Battle',
+    coverType: 'snowball',
+    coverImage: 'assets/games/snowball-cover.jpg',
+    portraitImage: 'assets/games/snowball-portrait.png',
+    updated: '2026-11',
+    tech: 'HTML5 Canvas · TypeScript · Vite',
+    license: 'CC BY-NC-ND 4.0',
+    zh: {
+      coverBadge: '4 位 OC 角色 · 双模式',
+      title: '像素打雪仗',
+      subtitle: 'Snowball-Battle · 2.5D 像素风打雪仗',
+      genre: '2.5D 像素动作对战',
+      tagline: '化身四位 Q 版像素主角，在飘雪林间展开技能与五色魔典齐飞的热血雪仗！',
+      summary:
+        '采用 2.5D 立体纵深呈现的像素风打雪仗游戏，包含动态 Y-Sort 遮挡、Z 轴雪球抛物线与树冠穿行淡化。提供 5 关 + 双阶段 BOSS 的「冒险模式」与 4 人 AI「混战模式」，并收录四位自带专属技能的 Q 版 OC 角色与五色魔法书道具。',
+      tags: ['动作对战', '2.5D 像素风', '4 位角色技能', 'PC / 手机双端'],
+      highlights: [
+        '四位 Q 版像素主角与专属技能：尤妮安娜「时间冻结」、苏米「曲奇回血」、白雪喵都「寒冰护盾」、小苏「拔刀斩」',
+        '双模式畅玩：5 关深入雪原直面双阶段 BOSS「极寒霜王」的冒险模式，以及支持生存淘汰与积分赛的 4 人大乱斗',
+        '丰富拾取道具与五色魔法书：绷带、冰淇淋、热可可，以及五发散弹、无限连射、极寒减速、暴击与穿透魔典',
+        '精细 2.5D 立体细节：雪球抛物线投影、雪地脚印、雪堆装填与冲刺无敌帧，完美适配键鼠与触屏摇杆'
+      ],
+      controls: {
+        pc: 'WASD / 方向键移动 · 鼠标瞄准 + 左键投掷 · Z 冲刺 · 雪堆旁长按 R 补雪 · X / E / 右键释放技能 · Esc / P 暂停',
+        mobile: '左侧虚拟摇杆移动 · 右侧支持轻点自动瞄准或按住拖拽精准投掷，配独立冲刺、技能与长按装填按钮'
+      },
+      portraitCaption: '尤妮安娜 (Unianna)'
+    },
+    en: {
+      coverBadge: '4 Heroes · Adventure & Brawl',
+      title: 'Snowball Battle',
+      subtitle: '2.5D Pixel Art Snowball Arena',
+      genre: '2.5D Action Battle',
+      tagline: 'Pick from 4 pixel chibi heroes with signature skills for fast-paced 2.5D snowball action!',
+      summary:
+        'A lively 2.5D pixel-art snowball battle game featuring Y-sorted depth, parabolic snowball arcs, footprints, and fading pine canopies. Battle through a 5-stage Adventure campaign ending in the Frost King boss, or jump into a 4-way AI Brawl.',
+      tags: ['Action Battle', '2.5D Pixel Art', '4 Hero Skills', 'PC & Mobile'],
+      highlights: [
+        '4 playable chibi heroes with unique skills: Unianna (Time Freeze), Kuki (Cookie Heal), Miyako (Ice Shield), and Tessel (Iaido Slash)',
+        'Two game modes: 5-stage Adventure mode with two-phase Frost King boss fight, plus 4-character Survival & Score Brawl',
+        'Pickups & 5 elemental grimoires: Bandage, Ice Cream, Hot Cocoa, plus 5-Spread, Infinite Fire, Frost Slow, Crit & Pierce tomes',
+        'Polished 2.5D combat with snowpile reloading, dash invincibility frames, and full mouse/keyboard or touch-stick controls'
+      ],
+      controls: {
+        pc: 'WASD / Arrows to move · Mouse aim + Left Click throw · Z dash · Hold R near snowpile to reload · X / E / Right Click skill',
+        mobile: 'Left virtual stick to move · Right tap auto-aim or drag-to-aim throw, plus dedicated Dash, Skill, and Hold-to-Reload buttons'
+      },
+      portraitCaption: 'Unianna'
     }
   }
 ];

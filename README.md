@@ -11,8 +11,11 @@
 | NO. 01 | **狐影零时 \| Foxlight: 00:00 - 06:00** | 2D 手电筒潜行生存 | [开始游玩](https://gdhjdsydh.github.io/Foxlight-Shrine/) | [Foxlight-Shrine](https://github.com/GDHJDSYDH/Foxlight-Shrine) |
 | NO. 02 | **神山识打地鼠 \| Whack-Shiki** | 夏日海滩休闲打地鼠 | [开始游玩](https://gdhjdsydh.github.io/Whack-Shiki/) | [Whack-Shiki](https://github.com/GDHJDSYDH/Whack-Shiki) |
 | NO. 03 | **羽未的炒饭游戏 \| Umi-Friedrice-Game** | 夏日厨房模拟烹饪 | [开始游玩](https://gdhjdsydh.github.io/Umi-Friedrice-Game/) | [Umi-Friedrice-Game](https://github.com/GDHJDSYDH/Umi-Friedrice-Game) |
+| NO. 04 | **像素打雪仗 \| Snowball-Battle** | 2.5D 像素动作对战 | [开始游玩](https://gdhjdsydh.github.io/Snowball-Battle/) | [Snowball-Battle](https://github.com/GDHJDSYDH/Snowball-Battle) |
 
 ## 如何新增下一款小游戏
+
+桌面端展柜按 **每 3 款游戏一行** 自动排布（第 4–6 款自动排在第二行，以此类推）：
 
 1. 将新游戏的封面图放入 `assets/games/` 目录。
 2. 打开 `data/games.js`，在 `window.GAMES` 数组中按现有格式追加一个游戏对象（填入中英文标题、简介、特色、操作说明及 GitHub Pages 游玩链接）。
