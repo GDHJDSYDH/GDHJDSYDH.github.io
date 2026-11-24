@@ -65,6 +65,13 @@
       `;
     }
 
+    if (game.coverType === 'last-shot') {
+      return `
+        <img class="game-cover-img" src="${escapeHtml(game.coverImage)}" alt="${escapeHtml(loc.title)}" loading="${isModal ? 'eager' : 'lazy'}" />
+        ${!isModal ? '<div class="lastshot-lamp" aria-hidden="true"></div>' : ''}
+      `;
+    }
+
     return `
       <img class="game-cover-img" src="${escapeHtml(game.coverImage)}" alt="${escapeHtml(loc.title)}" loading="${isModal ? 'eager' : 'lazy'}" />
       ${!isModal ? '<div class="foxlight-beam" aria-hidden="true"></div>' : ''}

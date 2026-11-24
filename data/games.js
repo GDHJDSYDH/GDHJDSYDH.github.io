@@ -375,5 +375,62 @@ window.GAMES = [
       },
       portraitCaption: 'Unianna'
     }
+  },
+  {
+    id: 'the-last-shot',
+    catalogNo: 'NO. 05',
+    categories: ['action', 'mobile'],
+    accent: '#9E2A3B',
+    accentSoft: 'rgba(158, 42, 59, 0.12)',
+    playUrl: 'https://gdhjdsydh.github.io/The-Last-Shot/',
+    repoUrl: 'https://github.com/GDHJDSYDH/The-Last-Shot',
+    coverType: 'last-shot',
+    coverImage: 'assets/games/lastshot-cover.jpg',
+    portraitImage: 'assets/games/lastshot-portrait.jpg',
+    updated: '2026-11',
+    tech: 'HTML5 Canvas · TypeScript · Vite',
+    license: 'CC BY-NC 4.0',
+    zh: {
+      coverBadge: '3 秒读心博弈 · 1v1 / 1v1v1',
+      title: '终之枪弹',
+      subtitle: 'The Last Shot · 第一人称心理博弈枪战',
+      genre: '回合制心理博弈枪战',
+      tagline: '三秒定胜负！在装弹、防御与第一人称拔枪瞄准间，赢下这场赌上六发子弹的读心对决。',
+      summary:
+        '灵感源自「波波攒 / 拍拍枪」的高节奏第一人称心理博弈枪战游戏。每回合仅 3 秒决定装弹、开火或举起防暴盾防御，选定即锁定不可反悔；开火后更需在 3 秒内第一人称瞄准击发，攒满 6 发即可释放破盾暴击的「超级射击」。',
+      tags: ['心理博弈', '第一人称射击', '1v1 / 三人混战', 'PC / 手机双端'],
+      highlights: [
+        '1v1 双人读心对决 & 1v1v1 三人混战双模式：两名风格迥异的战术 AI 独立选靶互攻或围攻，战局瞬息万变',
+        '3 秒心理决策（选定即锁定）+ 3 秒第一人称左轮瞄准窗口，兼具猜拳式博弈与瞬时射击手感',
+        '第一人称防暴盾视角：透过观察口直视对面战况并格挡普通子弹，六弹蓄满更可触发 2 心暴击且破盾禁防的「超级射击」',
+        '内置 Crash Guard 安全防崩溃诊断系统与双端自适应操控，电脑键鼠与手机触屏随时开打'
+      ],
+      controls: {
+        pc: '快捷键 1 / 2 / 3（或 Q / W / E）选择装弹 / 开火 / 防御 · 开火阶段 3 秒内移动鼠标瞄准对手并左键击发',
+        mobile: '3 秒内轻触底部按钮选择装弹 / 开火 / 防御 · 开火阶段直接点击屏幕瞄准对手击发'
+      },
+      portraitCaption: '礼帽枪手'
+    },
+    en: {
+      coverBadge: '3s Mind Game · 1v1 / 1v1v1',
+      title: 'The Last Shot',
+      subtitle: '终之枪弹 · First-Person Tactical Gunfight',
+      genre: 'Tactical Gunfight',
+      tagline: '3 seconds to decide, 3 seconds to aim—outread your rivals in a high-stakes revolver duel.',
+      summary:
+        'A fast-paced first-person turn-based mind-game gunfight inspired by classic reload-shoot-block duels. Commit to Reload, Shoot, or Riot Shield within 3 seconds, aim your revolver in first-person when firing, and charge 6 bullets to unleash a shield-shattering Super Shot.',
+      tags: ['Mind Game', 'First-Person Aim', '1v1 & 3-Way Brawl', 'PC & Mobile'],
+      highlights: [
+        '1v1 Duel & 1v1v1 Three-Way Brawl modes against distinct tactical AIs that pick targets dynamically',
+        '3-second lock-in decision window paired with a tense 3-second first-person revolver aiming phase',
+        'First-person riot shield view that blocks standard rounds, countered by a 6-bullet Super Shot dealing 2-heart crit and shattering shields',
+        'Built-in Crash Guard diagnostics and responsive PC keyboard/mouse plus mobile touch controls'
+      ],
+      controls: {
+        pc: 'Keys 1 / 2 / 3 (or Q / W / E) for Reload / Shoot / Shield · Aim with mouse and Left Click within 3s to fire',
+        mobile: 'Tap Reload / Shoot / Shield buttons within 3s · Tap directly on your opponent during the 3s aim window to fire'
+      },
+      portraitCaption: 'Noir Gunslinger'
+    }
   }
 ];

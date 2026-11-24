@@ -12,6 +12,7 @@
 | NO. 02 | **神山识打地鼠 \| Whack-Shiki** | 夏日海滩休闲打地鼠 | [开始游玩](https://gdhjdsydh.github.io/Whack-Shiki/) | [Whack-Shiki](https://github.com/GDHJDSYDH/Whack-Shiki) |
 | NO. 03 | **羽未的炒饭游戏 \| Umi-Friedrice-Game** | 夏日厨房模拟烹饪 | [开始游玩](https://gdhjdsydh.github.io/Umi-Friedrice-Game/) | [Umi-Friedrice-Game](https://github.com/GDHJDSYDH/Umi-Friedrice-Game) |
 | NO. 04 | **像素打雪仗 \| Snowball-Battle** | 2.5D 像素动作对战 | [开始游玩](https://gdhjdsydh.github.io/Snowball-Battle/) | [Snowball-Battle](https://github.com/GDHJDSYDH/Snowball-Battle) |
+| NO. 05 | **终之枪弹 \| The Last Shot** | 回合制心理博弈枪战 | [开始游玩](https://gdhjdsydh.github.io/The-Last-Shot/) | [The-Last-Shot](https://github.com/GDHJDSYDH/The-Last-Shot) |
 
 ## 如何新增下一款小游戏
 

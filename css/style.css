@@ -726,6 +726,26 @@ button {
   opacity: 1;
 }
 
+/* The Last Shot noir overhead lamp spotlight */
+.lastshot-lamp {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    ellipse 58% 68% at 50% 18%,
+    rgba(255, 198, 118, 0.28),
+    rgba(196, 52, 68, 0.08) 54%,
+    transparent 80%
+  );
+}
+
+.game-cover:hover .lastshot-lamp {
+  opacity: 1;
+}
+
 /* Whack-Shiki living layered cover: Shiki peeking out of center sand hole */
 .whack-stage {
   position: relative;
